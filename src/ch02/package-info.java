@@ -1,5 +1,6 @@
 /**
  * 第2章 一切都是对象
+ * </br>java在线文档：https://docs.oracle.com/javase/7/docs/api/index.html
  * @author niuzhihuan 2017-12-25
  */
 package ch02;
@@ -50,5 +51,8 @@ import 类全名。如 import java.util.ArrayList;
 @return:方法文档中表示返回值
 @throws:异常标签
 @deprecated:不建议使用
-2.8.5 文档示例 
+2.8.5 文档示例
+2.9 编码风格
+类名的首字母要大写，如果是几个单词，每个首字母要大写。
+方法，字段，对象引用名称风格和类名类似，但是第一个字母采用小写。
 */
