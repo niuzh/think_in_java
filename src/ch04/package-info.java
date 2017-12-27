@@ -13,4 +13,8 @@ package ch04;
 for循环的控制表达式使用。
 4.4 Foreach语法
 4.5 return
+4.6 break和continue
+4.7 臭名昭著的goto
+4.8 switch语句
+一种选择语句。选择因子必须是整数类型或在enum
 */
