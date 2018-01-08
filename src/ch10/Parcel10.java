@@ -2,7 +2,7 @@ package ch10;
 
 public class Parcel10 {
 
-	public Destination destination(String desc,float price) {
+	public Destination destination(final String desc,final float price) {
 		return new Destination() {
 			private int cost;
 			//实例初始化操作=构造器
