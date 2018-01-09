@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 abstract class Base{
 	public Base(int i) {

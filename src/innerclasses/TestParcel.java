@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ch10;
+package innerclasses;
 
 /**
  * 

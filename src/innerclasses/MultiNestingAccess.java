@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 class MNA{
 	private void f() {

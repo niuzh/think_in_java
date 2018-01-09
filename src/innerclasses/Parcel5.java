@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 public class Parcel5 {
 	/**

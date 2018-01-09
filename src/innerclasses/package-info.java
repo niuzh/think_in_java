@@ -2,7 +2,7 @@
  * 第10章 内部类
  * @author niu
  */
-package ch10;
+package innerclasses;
 /**
 10.1 创建内部类
 把类的定义置于外围类的里面

@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 public interface Destination {
 	String readLable();

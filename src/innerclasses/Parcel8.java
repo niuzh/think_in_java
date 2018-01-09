@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 /**
  * 匿名内部类构造器传递参数

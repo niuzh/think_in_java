@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 /**
  * 初始化匿名内部类的字段

@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 
 class D{}
 abstract class E{}

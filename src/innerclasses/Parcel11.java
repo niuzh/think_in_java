@@ -1,4 +1,4 @@
-package ch10;
+package innerclasses;
 /**
  * 嵌套类
  * 创建内部类不需要外围类对象
