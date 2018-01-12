@@ -18,5 +18,7 @@ package holding;
 11.10 Map
 11.11 Queue
 11.11.1 PriorityQueue
-11.12 Collection和Iterator
+11.12 Collection和Iterator\
+11.13 Foreach与迭代器
+11.13.1 适配器方法惯用法
 */
