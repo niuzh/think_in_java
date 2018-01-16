@@ -19,5 +19,11 @@ package strings;
 13.6.2 创建正则表达式
 13.6.3 量词
 13.6.4 Pattern和Matcher
-
+13.6.5 split()
+13.6.6 替換操作
+13.6.7 reset()
+13.6.8 正则表达式与Java I/O
+13.7 扫描输入	
+13.7.1 Scanner定界符
+13.8 StringTokenizer
 */
