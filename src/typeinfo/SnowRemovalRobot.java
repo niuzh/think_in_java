@@ -20,18 +20,32 @@ public class SnowRemovalRobot implements Robot{
 
 	@Override
 	public List<Operation> operations() {
-		return Arrays.asList(new Operation() {
-			
-			@Override
-			public String description() {
-				return name+" can shovel snow";
-			}
-			
-			@Override
-			public void command() {
-				System.out.println(name+" shoveling snow");
-			}
-		});
+		return Arrays.asList(
+				new Operation() {
+					
+					@Override
+					public String description() {
+						return name+" can shovel snow";
+					}
+					
+					@Override
+					public void command() {
+						System.out.println(name+" shoveling snow");
+					}
+				},
+				new Operation() {
+					
+					@Override
+					public String description() {
+						return name+" can shovel snow";
+					}
+					
+					@Override
+					public void command() {
+						System.out.println(name+" shoveling snow");
+					}
+				}
+				);
 	}
 	public static void main(String[] args) {
 		Robot.Test.test(new SnowRemovalRobot("slusher"));
