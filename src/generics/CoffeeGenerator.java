@@ -14,7 +14,6 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
 	}
 	@Override
 	public Iterator<Coffee> iterator() {
-		// TODO Auto-generated method stub
 		return new CoffeeIterator();
 	}
 
@@ -25,6 +24,7 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
 					(types[rand.nextInt(types.length)].newInstance());
 		} catch (Exception e) {
 		}
+		return null;
 	}
 	
 	class CoffeeIterator implements Iterator<Coffee>{
@@ -34,7 +34,6 @@ public class CoffeeGenerator implements Generator<Coffee>, Iterable<Coffee> {
 		}
 		@Override
 		public Coffee next() {
-			// TODO Auto-generated method stub
 			return CoffeeGenerator.this.next();
 		}
 		@Override
